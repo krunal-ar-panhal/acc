@@ -1,0 +1,16 @@
+export const Href = '#javascript'
+export const ImagePath = "/assets/images";
+export const sessionName = "userData";
+export const tokenName = "token";
+export const apiPath = 'https://api.acsa.co.in/admin/';
+export const apiImagePath = "https://api.acsa.co.in";
+export const subCategory='subCategory';
+export const category='category';
+export const product='product';
+export const rating='rating';
+export const order='order';
+export const attribute='attribute';
+export const option='options';
+export const couponVar='coupon';
+export const subscribe='subscribe';
+export const banner='banner';
