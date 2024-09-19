@@ -77,9 +77,10 @@ const AddProduct: React.FC<AddProductProps> = ({ id, lng }) => {
     const defaultSizes = ['S', 'M', 'L', 'XL', 'XXL'];
 
     const handleAddSizes = () => {
-        const mergedSizes = [...new Set([...sizes, ...defaultSizes])];
+        const mergedSizes: string[] = Array.from(new Set<string>([...sizes, ...defaultSizes]));
         setSizes(mergedSizes);
     };
+    
 
     const methods = useForm();
     const { control, formState: { errors }, reset, getValues } = methods;
